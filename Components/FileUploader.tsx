@@ -2,7 +2,7 @@
 
 import React,{useCallback, useState} from 'react'
 import {useDropzone} from 'react-dropzone'
-import {Button} from '@/Components/ui/button'
+import {Button} from '@/components/ui/button'
 import Image from 'next/image'
 import { toast } from "sonner"
 import { cn, convertFileToUrl, getFileType } from '@/lib/utils'

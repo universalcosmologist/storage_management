@@ -5,7 +5,7 @@ import {
   DialogFooter,
   DialogHeader,
   DialogContent, DialogDescription, DialogTitle
-} from "@/Components/ui/dialog";
+} from "@/components/ui/dialog";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -13,7 +13,7 @@ import {
   DropdownMenuLabel,
   DropdownMenuSeparator,
   DropdownMenuTrigger,
-} from "@/Components/ui/dropdown-menu";
+} from "@/components/ui/dropdown-menu";
 import { actionsDropdownItems } from "@/constants";
 import Image from "next/image";
 import { Models } from "node-appwrite";

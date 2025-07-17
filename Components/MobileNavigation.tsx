@@ -6,17 +6,17 @@ import {
   SheetDescription,
   SheetTitle,
   SheetTrigger,
-} from "@/Components/ui/sheet";
+} from "@/components/ui/sheet";
 import Image from "next/image";
 import React, { useState } from "react";
 import { usePathname } from "next/navigation";
 import { navItems } from "@/constants";
 import Link from "next/link";
 import { cn } from "@/lib/utils";
-import { Button } from "@/Components/ui/button";
-import FileUploader from "@/Components/FileUploader";
+import { Button } from "@/components/ui/button";
+import FileUploader from "@/components/FileUploader";
 import { signOutUser } from "@/lib/actions/user.actions";
-import { Separator } from "@/Components/ui/separator";
+import { Separator } from "@/components/ui/separator";
 
 interface Props {
   $id: string;

@@ -5,7 +5,7 @@ import {
   InputOTP,
   InputOTPGroup,
   InputOTPSlot,
-} from "@/Components/ui/input-otp";
+} from "@/components/ui/input-otp";
 
 import {
   AlertDialog,
@@ -15,7 +15,7 @@ import {
   AlertDialogFooter,
   AlertDialogHeader,
   AlertDialogTitle
-} from "@/Components/ui/alert-dialog"
+} from "@/components/ui/alert-dialog"
 
 import React, { useState } from 'react'
 import Image from "next/image";

@@ -5,9 +5,9 @@ import { useForm } from 'react-hook-form'
 import Image from 'next/image'
 import Link from 'next/link'
 import {z} from 'zod'
-import { Button } from '@/Components/ui/button';
-import {Form,FormControl,FormMessage,FormField,FormLabel,FormItem} from '@/Components/ui/form';
-import {Input} from '@/Components/ui/input'
+import { Button } from '@/components/ui/button';
+import {Form,FormControl,FormMessage,FormField,FormLabel,FormItem} from '@/components/ui/form';
+import {Input} from '@/components/ui/input'
 import { useState } from 'react' 
 import { createAccount, signInUser } from '@/lib/actions/user.actions'
 import OTPModel from './OTPModel'

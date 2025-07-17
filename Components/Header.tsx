@@ -3,7 +3,7 @@ import Search from './Search';
 import FileUploader from './FileUploader';
 import { signOutUser } from '@/lib/actions/user.actions';
 import Image from 'next/image';
-import {Button} from '@/Components/ui/button';
+import {Button} from '@/components/ui/button';
 
 interface Props{
     Id:string;

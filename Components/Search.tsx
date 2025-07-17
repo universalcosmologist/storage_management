@@ -3,13 +3,13 @@
 import React, { useState } from "react";
 
 import Image from "next/image";
-import { Input } from "@/Components/ui/input";
+import { Input } from "@/components/ui/input";
 import { useRouter } from "next/navigation";
 import { getFiles } from "@/lib/actions/file.actions";
 import { Models } from "node-appwrite";
-import Thumbnail from "@/Components/Thumbnail";
-import FormattedDateTime from "@/Components/FormattedDateTime";
-import { Button } from "@/Components/ui/button";
+import Thumbnail from "@/components/Thumbnail";
+import FormattedDateTime from "@/components/FormattedDateTime";
+import { Button } from "@/components/ui/button";
 
 const Search = () => {
   const [query, setQuery] = useState("");
